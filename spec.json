@@ -1,0 +1,160 @@
+{
+  "project_name": "Gam-Khuan Planetary Geological Solid-State Energy System",
+  "project_code": "Project Gam-Khuan",
+  "version": "6.5-Architecture-Specification",
+  "author_and_inventor": {
+    "legal_name": "Hung, Ta-Piao",
+    "role": "Sole Inventor & System Architect",
+    "country_of_origin": "Taiwan (R.O.C.)",
+    "ip_disclosure_status": "Author-attributed, publicly timestamped architectural specification."
+  },
+
+  "execution_model": "The author provides the complete system architecture and intellectual property. Execution, funding, engineering, construction, and operation are carried out by licensed third-party entities under contract with the author.",
+
+  "twin_core_objectives": {
+    "core_1_sea_level_mitigation": {
+      "design_statement": "Transfer seawater from the ocean into a characterized coastal desert geological system and retain it there to produce measurable net reduction in global ocean mass.",
+      "primary_kpi": "Net Ocean Water Removal (V_net(t))"
+    },
+    "core_2_solid_state_energy_storage": {
+      "design_statement": "Evolve the liquid brine into a solid-state salt-silica-carbon crystalline matrix serving as a massive non-metallic solid-state capacitor for grid-scale energy storage.",
+      "primary_kpi": "Energy density (Wh/L), dielectric constant, charge retention time."
+    },
+    "synergy": "Both cores share the same infrastructure. Water transfer provides the material for the solid-state capacitor. The capacitor provides the energy storage that makes the system economically self-sustaining."
+  },
+
+  "primary_mission": {
+    "statement": "Transfer seawater from the ocean into coastal desert formations and retain it there for centuries, while evolving the brine into a solid-state salt-silica-carbon energy storage matrix.",
+    "core_principle": "The ocean is rising. Water must go somewhere. A coastal desert basin is the minimum viable unit for both sequestration and solid-state energy storage deployment.",
+    "why_this_matters": "Global sea-level rise threatens coastal habitability. The world needs massive low-cost non-metal energy storage. This architecture addresses both with one integrated system."
+  },
+
+  "system_architecture": {
+    "description": "Four integrated modules. Modules 1 and 2 serve Core 1. Modules 3 and 4 serve Core 2. Failure of one core does not invalidate the other.",
+    "module_1_conveyance": {
+      "function": "Move seawater from the ocean to the inland desert basin using gravity-fed pressurized tunnels or channels.",
+      "design_principle": "Gravity and natural elevation differences wherever possible. Minimize external energy input.",
+      "status": "Design complete."
+    },
+    "module_2_sequestration": {
+      "function": "Retain seawater in deep geological strata for long-term isolation.",
+      "design_principle": "Direct water into deep permeable layers, saline aquifers, and mineral-rich formations.",
+      "status": "Design complete."
+    },
+    "module_3_solid_state_energy_storage": {
+      "function": "Evolve liquid brine into a solid-state salt-silica-carbon crystalline matrix for massive energy storage.",
+      "design_principle": "Controlled evaporation and crystallization of brine with desert sandstone and a 3D conductive carbon percolation network.",
+      "operational_phases": {
+        "phase_1_liquid": {
+          "description": "Immediate deployment using raw seawater/brine for double-layer capacitor storage while evaporation progresses.",
+          "technology_readiness": "TRL 4-5",
+          "specifications": {
+            "energy_density": "> 5 Wh/L",
+            "cycle_life": "> 10,000 cycles",
+            "efficiency": "> 70%"
+          }
+        },
+        "phase_2_solid": {
+          "description": "Terminal solid-state crystallization into a salt-silica-carbon nano-composite dielectric material. Eliminates steam explosion risks, corrosion, and self-discharge.",
+          "technology_readiness": "TRL 2-3",
+          "specifications": {
+            "effective_dielectric_constant": "> 100 initial, > 1000 scaled",
+            "breakdown_field_strength": "> 50 MV/m",
+            "energy_density": "> 10 Wh/L initial, > 50 Wh/L scaled",
+            "leakage_current": "< 1% per month",
+            "cycle_life": "> 100,000 cycles"
+          }
+        }
+      }
+    },
+    "module_4_energy_capture": {
+      "function": "Capture high-voltage atmospheric cloud static and lightning energy to bias and charge the solid-state matrix.",
+      "design_principle": "Laser-induced plasma channels and carbon-fiber lightning masts. Tree-branching carbon cables (thick-to-thin) to distribute current and mitigate peak surge.",
+      "operational_role": "Atmospheric Electrostatic Bias & Pulse Ignition subsystem. Enhances polarization of the salt-silica-carbon matrix.",
+      "status": "Design complete."
+    }
+  },
+
+  "phase_1_site_deployment": {
+    "mission": "Select, characterize, and deploy a single candidate coastal desert basin for both long-term geological seawater isolation and solid-state energy storage material development.",
+    "site_selection_criteria": [
+      "Desert environment",
+      "Proximity to ocean",
+      "Low or negative elevation",
+      "Endorheic basin (no surface outflow to ocean)",
+      "Deep permeable strata",
+      "Geological stability",
+      "Favorable geochemical compatibility"
+    ],
+    "geotechnical_specification": {
+      "hydraulic_isolation": "Chambers situated within ultralow-permeability host rock (Lugeon value < 0.01).",
+      "site_characterization": "3D Reflection Seismic and Borehole Hydro-testing prior to excavation.",
+      "site_rejection": "Unresolved active fault zones interconnecting adjacent storage modules disqualify the site."
+    },
+    "deployment_workflow": [
+      "1. Global Mass-Balance Model v1.0",
+      "2. Single-Basin Hydrogeological Case Study",
+      "3. Tracer Experiment & Small-Volume Injection",
+      "4. Solid-State Material Development & Pilot",
+      "5. Scale-Up & Global Replication"
+    ],
+    "environmental_constraints": [
+      "Groundwater protection",
+      "Induced seismicity monitoring",
+      "Pressure management",
+      "Geochemical compatibility",
+      "Plume containment",
+      "Ecological impact assessment"
+    ],
+    "engineering_parameters": {
+      "injection_pressure_budget": "Formation pressure, fracture pressure, allowable injection pressure, pressure propagation, pressure dissipation, injection rate, cumulative injected volume, monitoring-well response.",
+      "permeability_feedback": "Monitor Permeability(t) and Injection Pressure(t). Manage injection pressure to avoid geological hazards.",
+      "storage_vs_injection": "Storage capacity does not equal injection capacity. The rate at which the formation can accept water is the critical engineering constraint."
+    },
+    "success_metrics": {
+      "retention_fraction": "R(100 years) > 80%.",
+      "sea_level_reduction": "Measurable in millimeters per basin.",
+      "solid_state_energy_density": "> 10 Wh/L initially.",
+      "leakage_current": "< 1% per month."
+    }
+  },
+
+  "implementation_roadmap": [
+    { "step": 1, "phase": "Global Mass-Balance Model v1.0" },
+    { "step": 2, "phase": "Single-Basin Hydrogeological Case Study" },
+    { "step": 3, "phase": "Tracer Experiment & Small-Volume Injection" },
+    { "step": 4, "phase": "Solid-State Material Development & Pilot" },
+    { "step": 5, "phase": "Scale-Up & Global Replication" }
+  ],
+
+  "intellectual_property": {
+    "core_innovations": [
+      "Gravity-fed pressurized tunnel system for seawater conveyance",
+      "Deep-strata sequestration method for long-term water isolation",
+      "Salt-silica-carbon nano-composite dielectric material and manufacturing method",
+      "Tree-branching carbon-fiber lightning capture and distribution network",
+      "Two-phase brine-to-solid-state energy storage method",
+      "Global replicable basin network architecture"
+    ],
+    "protection": [
+      "Prior art defensive publication with cryptographic timestamping",
+      "Provisional patent applications for core mechanisms",
+      "Trade secret protection for advanced material doping and operational algorithms",
+      "International PCT filings"
+    ],
+    "licensing_model": "Royalty-based licensing to construction firms, energy utilities, and sovereign wealth funds. Inventor retains sole legal inventorship."
+  },
+
+  "funding_and_partnership_targets": {
+    "government_agencies": ["ARPA-E", "DARPA", "NSF", "DOE Water Power"],
+    "philanthropic_foundations": ["Breakthrough Energy Fellows", "ClimateWorks", "Swiss Climate", "KR Foundation"],
+    "venture_capital": ["Prime Impact Fund", "Vitamin°C", "Breakthrough Energy Ventures"]
+  },
+
+  "current_status": {
+    "founder_and_inventor": "Hung, Ta-Piao",
+    "development_stage": "Complete System Architecture / Prior Art Established / Seeking Execution Partner",
+    "funding_raised": "$0",
+    "immediate_need": "Execution partner to license this architecture and carry out the validation and pilot program."
+  }
+}
